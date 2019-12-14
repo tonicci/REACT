@@ -1,4 +1,4 @@
-/*
+
 
 import lessonReducer from "./lesson-reducer";
 import HWReducer from "./HW-reducer";
@@ -7,7 +7,7 @@ let store = {
     _state: {
         NLLP: {
             NLL: [
-                {Tema: 'Темы за 8 класс', id: 8},
+                {Tema: 'Темы за 8 клаererererererereсс', id: 8},
                 {Tema: 'Темы за 9 класс', id: 9},
                 {Tema: 'Темы за 10 класс', id: 10},
                 {Tema: 'Темы за 11 класс', id: 11}],
@@ -82,4 +82,3 @@ let store = {
 
 
 export default store;
-*/

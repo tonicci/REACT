@@ -1,7 +1,6 @@
 const ADD_POST = 'ADD-POST';
 const UPDATE_NEW_POST_TEXT = 'UPDATE-NEW-POST-TEXT';
 let initialState = {
-    NLLP: {
         NLL: [
             {Tema: 'Темы за 8 класс', id: 8},
             {Tema: 'Темы за 9 класс', id: 9},
@@ -40,7 +39,7 @@ let initialState = {
             {Tema: 'Какая-то тема', id: 5},
 
         ],
-    }
+
 };
 const lessonReducer = (state = initialState, action) => {
     switch (action.type) {

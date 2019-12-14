@@ -5,6 +5,8 @@ import NewLesson from "./newlesson/newlesson";
 
 const Lesson = (props) => {
     debugger
+    console.log(props.state)
+    console.log(props.store)
     return (
         <div>
             <div className={classes.content}>

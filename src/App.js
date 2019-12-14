@@ -3,7 +3,7 @@ import './App.css';
 import Nav from "./components/nav/nav";
 import Header from "./components/Header/Header";
 import Lesson from "./components/Lesson/lesson";
-import {Route} from "react-router-dom";
+import {BrowserRouter, Route} from "react-router-dom";
 import Course from "./components/course/course";
 import HomeWork from "./components/Homework/HW.";
 import Lesson8 from "./components/Lesson/lesson8";
@@ -12,6 +12,8 @@ import HW7 from "./components/Homework/HW/HW7";
 
 const App = (props) => {
     debugger
+    console.log(props.state)
+    console.log(props.store.getState())
     return (
         <div className='app-lesson'>
             <Header/>

@@ -2,7 +2,7 @@ const ADD_HW = 'ADD-HW';
 const UPDATE_NEW_HW_TEXT = 'UPDATE-NEW-HW-TEXT';
 
 let initialState = {
-    HPL: {
+
         HomList: [
             {klass: 7},
             {klass: 8},
@@ -18,7 +18,7 @@ let initialState = {
             {Tema: 'какая - то', id: 5},
         ],
         newPostHWText: 'Введите тему для домашнего задания'
-    }
+
 };
 
 const HWReducer = (state = initialState, action) => {
