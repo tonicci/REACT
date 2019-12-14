@@ -1,0 +1,17 @@
+.header {
+    grid-area: h;
+    background-color: green;
+    border: 3px;
+}
+
+.header img {
+    width: 50px;
+}
+
+.center {
+    color: goldenrod;
+    text-align: center;
+    line-height: 5em;
+
+
+}

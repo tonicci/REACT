@@ -1,0 +1,14 @@
+.content{
+    padding: 20px;
+}
+.content img {
+    width: 1000px;
+    padding: 10px
+}
+
+.content a {
+    padding: 10px;
+    color: black;
+}
+
+

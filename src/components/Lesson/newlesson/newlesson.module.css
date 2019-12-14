@@ -1,0 +1,8 @@
+.content {
+    grid-area: c;
+    padding: 10px;
+}
+.lesson {
+    padding: 5px;
+
+}
